@@ -1,0 +1,787 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\wpf_student_management.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\wpf_student_management.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B64F03-3C18-4788-93B5-8DFB2C46E245}|Repository\\Repository.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\repository\\models\\prn212_student_managementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B64F03-3C18-4788-93B5-8DFB2C46E245}|Repository\\Repository.csproj|solutionrelative:repository\\models\\prn212_student_managementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\students\\add_studentclass.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\students\\add_studentclass.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\students\\add_studentclass.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\students\\add_studentclass.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\students\\edit_class.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\students\\edit_class.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\pageclass.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\pageclass.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\teachers\\add_subjectteacher.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\teachers\\add_subjectteacher.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\students\\add_mark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\students\\add_mark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\students\\edit_class.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\students\\edit_class.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\classes\\update_class.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\classes\\update_class.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\classes\\update_class.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\classes\\update_class.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\pageclass.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\pageclass.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\students\\update_student.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\students\\update_student.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\students\\update_student.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\students\\update_student.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\classes\\add_class.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\classes\\add_class.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\classes\\add_class.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\classes\\add_class.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\teachers\\add_teacher.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\teachers\\add_teacher.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\pagesubject.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\pagesubject.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\model\\classviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\model\\classviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B64F03-3C18-4788-93B5-8DFB2C46E245}|Repository\\Repository.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\repository\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B64F03-3C18-4788-93B5-8DFB2C46E245}|Repository\\Repository.csproj|solutionrelative:repository\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\pagesubject.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\pagesubject.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\teachers\\update_teacher.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\teachers\\update_teacher.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B64F03-3C18-4788-93B5-8DFB2C46E245}|Repository\\Repository.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\repository\\models\\subjectteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B64F03-3C18-4788-93B5-8DFB2C46E245}|Repository\\Repository.csproj|solutionrelative:repository\\models\\subjectteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\teachers\\join.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\teachers\\join.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\converter\\tupleconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\converter\\tupleconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\teachers\\join.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\teachers\\join.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\pageteacher.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\pageteacher.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\pageteacher.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\pageteacher.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\teachers\\add_subjectteacher.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\teachers\\add_subjectteacher.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B64F03-3C18-4788-93B5-8DFB2C46E245}|Repository\\Repository.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\repository\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B64F03-3C18-4788-93B5-8DFB2C46E245}|Repository\\Repository.csproj|solutionrelative:repository\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\students\\add_mark.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\students\\add_mark.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\students\\update_mark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\students\\update_mark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\students\\editmarks.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\students\\editmarks.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\students\\editmarks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\students\\editmarks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\students\\update_mark.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\students\\update_mark.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B64F03-3C18-4788-93B5-8DFB2C46E245}|Repository\\Repository.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\repository\\models\\mark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B64F03-3C18-4788-93B5-8DFB2C46E245}|Repository\\Repository.csproj|solutionrelative:repository\\models\\mark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\students\\add_students.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\students\\add_students.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\wpf_student_management.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\wpf_student_management.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\teachers\\update_teacher.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\teachers\\update_teacher.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\subjects\\subjectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\subjects\\subjectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\subjects\\update_subject.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\subjects\\update_subject.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\subjects\\update_subject.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\subjects\\update_subject.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pages\\subjects\\add_subject.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pages\\subjects\\add_subject.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\mainvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\mainvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|d:\\workplace\\fpt education\\su24\\prn212\\wpf_student_management\\wpf_student_management\\pageid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8CA074-1D99-4990-904C-2FD16E78480C}|Wpf_Student_Management\\Wpf_Student_Management.csproj|solutionrelative:wpf_student_management\\pageid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 265,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 135,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Add_Teacher.xaml.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Teachers\\Add_Teacher.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Teachers\\Add_Teacher.xaml.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Teachers\\Add_Teacher.xaml.cs",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Teachers\\Add_Teacher.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAiwF0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T13:15:51.606Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Add_SubjectTeacher.xaml.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Teachers\\Add_SubjectTeacher.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Teachers\\Add_SubjectTeacher.xaml.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Teachers\\Add_SubjectTeacher.xaml.cs",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Teachers\\Add_SubjectTeacher.xaml.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAkwEUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T00:07:27.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Add_StudentClass.xaml.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\Add_StudentClass.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Students\\Add_StudentClass.xaml.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\Add_StudentClass.xaml.cs",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Students\\Add_StudentClass.xaml.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAwDEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T00:07:19.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Add_StudentClass.xaml",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\Add_StudentClass.xaml",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Students\\Add_StudentClass.xaml",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\Add_StudentClass.xaml",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Students\\Add_StudentClass.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-12T00:05:45.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit_Class.xaml.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\Edit_Class.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Students\\Edit_Class.xaml.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\Edit_Class.xaml.cs",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Students\\Edit_Class.xaml.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAgwFIAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T22:45:11.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Update_Class.xaml",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Classes\\Update_Class.xaml",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Classes\\Update_Class.xaml",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Classes\\Update_Class.xaml",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Classes\\Update_Class.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T22:42:30.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PageClass.xaml",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\PageClass.xaml",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\PageClass.xaml",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\PageClass.xaml",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\PageClass.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T22:42:18.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PageClass.xaml.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\PageClass.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\PageClass.xaml.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\PageClass.xaml.cs",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\PageClass.xaml.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAYwDwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T22:39:53.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Update_Class.xaml.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Classes\\Update_Class.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Classes\\Update_Class.xaml.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Classes\\Update_Class.xaml.cs",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Classes\\Update_Class.xaml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA0wCAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T22:36:07.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Update_Student.xaml.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\Update_Student.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Students\\Update_Student.xaml.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\Update_Student.xaml.cs",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Students\\Update_Student.xaml.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T22:35:34.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Update_Student.xaml",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\Update_Student.xaml",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Students\\Update_Student.xaml",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\Update_Student.xaml",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Students\\Update_Student.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T22:35:32.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Add_Class.xaml",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Classes\\Add_Class.xaml",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Classes\\Add_Class.xaml",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Classes\\Add_Class.xaml",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Classes\\Add_Class.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T22:34:40.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Add_Class.xaml.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Classes\\Add_Class.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Classes\\Add_Class.xaml.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Classes\\Add_Class.xaml.cs",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Classes\\Add_Class.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T22:34:34.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PageSubject.xaml.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\PageSubject.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\PageSubject.xaml.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\PageSubject.xaml.cs",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\PageSubject.xaml.cs",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAqwI8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T21:09:26.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Wpf_Student_Management.csproj",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Wpf_Student_Management.csproj",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Wpf_Student_Management.csproj",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Wpf_Student_Management.csproj",
+              "RelativeToolTip": "Wpf_Student_Management\\Wpf_Student_Management.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-11T21:32:50.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ClassViewModel.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Model\\ClassViewModel.cs",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Model\\ClassViewModel.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Model\\ClassViewModel.cs",
+              "RelativeToolTip": "Wpf_Student_Management\\Model\\ClassViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T22:12:23.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Class.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Repository\\Models\\Class.cs",
+              "RelativeDocumentMoniker": "Repository\\Models\\Class.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Repository\\Models\\Class.cs",
+              "RelativeToolTip": "Repository\\Models\\Class.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T21:41:09.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PageSubject.xaml",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\PageSubject.xaml",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\PageSubject.xaml",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\PageSubject.xaml",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\PageSubject.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T22:08:54.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SubjectTeacher.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Repository\\Models\\SubjectTeacher.cs",
+              "RelativeDocumentMoniker": "Repository\\Models\\SubjectTeacher.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Repository\\Models\\SubjectTeacher.cs",
+              "RelativeToolTip": "Repository\\Models\\SubjectTeacher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T21:41:16.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Join.xaml.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Teachers\\Join.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Teachers\\Join.xaml.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Teachers\\Join.xaml.cs",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Teachers\\Join.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T20:59:12.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PageTeacher.xaml",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\PageTeacher.xaml",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\PageTeacher.xaml",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\PageTeacher.xaml",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\PageTeacher.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T13:09:26.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Update_Teacher.xaml",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Teachers\\Update_Teacher.xaml",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Teachers\\Update_Teacher.xaml",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Teachers\\Update_Teacher.xaml",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Teachers\\Update_Teacher.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T13:20:41.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Join.xaml",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Teachers\\Join.xaml",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Teachers\\Join.xaml",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Teachers\\Join.xaml",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Teachers\\Join.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T20:53:50.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TupleConverter.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Converter\\TupleConverter.cs",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Converter\\TupleConverter.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Converter\\TupleConverter.cs",
+              "RelativeToolTip": "Wpf_Student_Management\\Converter\\TupleConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T22:00:36.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PageTeacher.xaml.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\PageTeacher.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\PageTeacher.xaml.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\PageTeacher.xaml.cs",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\PageTeacher.xaml.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAIwB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T13:11:46.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PRN212_Student_ManagementContext.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Repository\\Models\\PRN212_Student_ManagementContext.cs",
+              "RelativeDocumentMoniker": "Repository\\Models\\PRN212_Student_ManagementContext.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Repository\\Models\\PRN212_Student_ManagementContext.cs",
+              "RelativeToolTip": "Repository\\Models\\PRN212_Student_ManagementContext.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAcwF8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T21:32:02.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Repository\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Repository\\Models\\Student.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Repository\\Models\\Student.cs",
+              "RelativeToolTip": "Repository\\Models\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T21:32:01.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Add_SubjectTeacher.xaml",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Teachers\\Add_SubjectTeacher.xaml",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Teachers\\Add_SubjectTeacher.xaml",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Teachers\\Add_SubjectTeacher.xaml",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Teachers\\Add_SubjectTeacher.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T21:16:36.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Add_Mark.xaml",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\Add_Mark.xaml",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Students\\Add_Mark.xaml",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\Add_Mark.xaml",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Students\\Add_Mark.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T21:17:04.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Add_Mark.xaml.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\Add_Mark.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Students\\Add_Mark.xaml.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\Add_Mark.xaml.cs",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Students\\Add_Mark.xaml.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAwEsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T21:21:01.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EditMarks.xaml",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\EditMarks.xaml",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Students\\EditMarks.xaml",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\EditMarks.xaml",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Students\\EditMarks.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T18:03:36.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Update_Mark.xaml",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\Update_Mark.xaml",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Students\\Update_Mark.xaml",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\Update_Mark.xaml",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Students\\Update_Mark.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T18:39:17.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit_Class.xaml",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\Edit_Class.xaml",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Students\\Edit_Class.xaml",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\Edit_Class.xaml",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Students\\Edit_Class.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T19:51:32.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EditMarks.xaml.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\EditMarks.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Students\\EditMarks.xaml.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\EditMarks.xaml.cs",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Students\\EditMarks.xaml.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAAwIcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T18:13:12.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Update_Mark.xaml.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\Update_Mark.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Students\\Update_Mark.xaml.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\Update_Mark.xaml.cs",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Students\\Update_Mark.xaml.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAQwB0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T18:41:33.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Mark.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Repository\\Models\\Mark.cs",
+              "RelativeDocumentMoniker": "Repository\\Models\\Mark.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Repository\\Models\\Mark.cs",
+              "RelativeToolTip": "Repository\\Models\\Mark.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T19:04:52.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Add_Students.xaml",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\Add_Students.xaml",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Students\\Add_Students.xaml",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Students\\Add_Students.xaml",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Students\\Add_Students.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T01:49:43.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Wpf_Student_Management",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Wpf_Student_Management.csproj",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Wpf_Student_Management.csproj",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Wpf_Student_Management.csproj",
+              "RelativeToolTip": "Wpf_Student_Management\\Wpf_Student_Management.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-11T17:05:02.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Update_Teacher.xaml.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Teachers\\Update_Teacher.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Teachers\\Update_Teacher.xaml.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Teachers\\Update_Teacher.xaml.cs",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Teachers\\Update_Teacher.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAMwBYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T13:21:24.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Add_Subject.xaml.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Subjects\\Add_Subject.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Subjects\\Add_Subject.xaml.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Subjects\\Add_Subject.xaml.cs",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Subjects\\Add_Subject.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAADMAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T15:23:42.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Update_Subject.xaml.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Subjects\\Update_Subject.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Subjects\\Update_Subject.xaml.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Subjects\\Update_Subject.xaml.cs",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Subjects\\Update_Subject.xaml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA1wDgAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T15:28:25.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Update_Subject.xaml",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Subjects\\Update_Subject.xaml",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Subjects\\Update_Subject.xaml",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Subjects\\Update_Subject.xaml",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Subjects\\Update_Subject.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T15:28:20.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "SubjectViewModel.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Subjects\\SubjectViewModel.cs",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\Pages\\Subjects\\SubjectViewModel.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\Pages\\Subjects\\SubjectViewModel.cs",
+              "RelativeToolTip": "Wpf_Student_Management\\Pages\\Subjects\\SubjectViewModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T15:49:18.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\MainWindow.xaml",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\MainWindow.xaml",
+              "RelativeToolTip": "Wpf_Student_Management\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T00:30:41.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Wpf_Student_Management\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T01:44:43.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "MainVM.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\MainVM.cs",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\MainVM.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\MainVM.cs",
+              "RelativeToolTip": "Wpf_Student_Management\\MainVM.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwBgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T08:21:46.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PageId.cs",
+              "DocumentMoniker": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\PageId.cs",
+              "RelativeDocumentMoniker": "Wpf_Student_Management\\PageId.cs",
+              "ToolTip": "D:\\Workplace\\FPT Education\\SU24\\PRN212\\Wpf_Student_Management\\Wpf_Student_Management\\PageId.cs",
+              "RelativeToolTip": "Wpf_Student_Management\\PageId.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T08:23:45.559Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
