@@ -49,6 +49,11 @@ namespace Wpf_Student_Management.Pages.Students
                 MessageBox.Show("Please fill in all fields.");
                 return;
             }
+            else if (firstName.Length > 128 || lastName.Length > 128)
+            {
+                MessageBox.Show("First and last name must be less than 128 letters.");
+                return;
+            }
             else if (dateOfBirth.Value < eighteenYearsAgo)
             {
                 MessageBox.Show("Student must be 18 years old or older.");

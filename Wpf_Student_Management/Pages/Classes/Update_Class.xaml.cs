@@ -29,7 +29,6 @@ namespace Wpf_Student_Management.Pages.Classes
             if (c != null)
             {
                 _class = c;
-                txtClassId.Content = c.ClassId;
                 txtClassName.Text = c.Name;
             }
         }
@@ -41,6 +40,11 @@ namespace Wpf_Student_Management.Pages.Classes
             if ( string.IsNullOrEmpty(className) )
             {
                 MessageBox.Show("Please fill in all fields.");
+                return;
+            }
+            else if (className.Length > 128)
+            {
+                MessageBox.Show("Class name must be less than 128 letters.");
                 return;
             }
             else

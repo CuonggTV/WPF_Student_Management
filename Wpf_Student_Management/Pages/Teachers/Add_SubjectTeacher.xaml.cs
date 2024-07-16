@@ -59,14 +59,20 @@ namespace Wpf_Student_Management.Pages.Teachers
                 SubjectId = selectedSubjectId
             };
 
-            // Save newMark to database using Entity Framework
-            using (var context = new PRN212_Student_ManagementContext())
-            {
-                context.SubjectTeachers.Add(newSubjectTeacher);
-                context.SaveChanges();
+            try {
+                using (var context = new PRN212_Student_ManagementContext())
+                {
+                    context.SubjectTeachers.Add(newSubjectTeacher);
+                    context.SaveChanges();
+                }
+                MessageBox.Show("Assign successfully.");
+                this.Close();
             }
-            MessageBox.Show("Assign successfully.");
-            this.Close();
+            catch(Exception ex)
+            {
+                MessageBox.Show("Cannot add teacher to class and subject");
+                return;
+            }
         }
     }
 }

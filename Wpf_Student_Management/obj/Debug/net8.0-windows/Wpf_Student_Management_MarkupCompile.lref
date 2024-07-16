@@ -1,11 +1,14 @@
 ﻿
 
 FD:\Workplace\FPT Education\SU24\PRN212\Wpf_Student_Management\Wpf_Student_Management\MainWindow.xaml;;
+FD:\Workplace\FPT Education\SU24\PRN212\Wpf_Student_Management\Wpf_Student_Management\Pages\Classes\Add_Class.xaml;;
+FD:\Workplace\FPT Education\SU24\PRN212\Wpf_Student_Management\Wpf_Student_Management\Pages\Classes\Update_Class.xaml;;
 FD:\Workplace\FPT Education\SU24\PRN212\Wpf_Student_Management\Wpf_Student_Management\Pages\PageClass.xaml;;
 FD:\Workplace\FPT Education\SU24\PRN212\Wpf_Student_Management\Wpf_Student_Management\Pages\PageStudent.xaml;;
 FD:\Workplace\FPT Education\SU24\PRN212\Wpf_Student_Management\Wpf_Student_Management\Pages\PageSubject.xaml;;
 FD:\Workplace\FPT Education\SU24\PRN212\Wpf_Student_Management\Wpf_Student_Management\Pages\PageTeacher.xaml;;
 FD:\Workplace\FPT Education\SU24\PRN212\Wpf_Student_Management\Wpf_Student_Management\Pages\Students\Add_Mark.xaml;;
+FD:\Workplace\FPT Education\SU24\PRN212\Wpf_Student_Management\Wpf_Student_Management\Pages\Students\Add_StudentClass.xaml;;
 FD:\Workplace\FPT Education\SU24\PRN212\Wpf_Student_Management\Wpf_Student_Management\Pages\Students\Add_Students.xaml;;
 FD:\Workplace\FPT Education\SU24\PRN212\Wpf_Student_Management\Wpf_Student_Management\Pages\Students\EditMarks.xaml;;
 FD:\Workplace\FPT Education\SU24\PRN212\Wpf_Student_Management\Wpf_Student_Management\Pages\Students\Edit_Class.xaml;;
@@ -17,7 +20,4 @@ FD:\Workplace\FPT Education\SU24\PRN212\Wpf_Student_Management\Wpf_Student_Manag
 FD:\Workplace\FPT Education\SU24\PRN212\Wpf_Student_Management\Wpf_Student_Management\Pages\Teachers\Add_Teacher.xaml;;
 FD:\Workplace\FPT Education\SU24\PRN212\Wpf_Student_Management\Wpf_Student_Management\Pages\Teachers\Join.xaml;;
 FD:\Workplace\FPT Education\SU24\PRN212\Wpf_Student_Management\Wpf_Student_Management\Pages\Teachers\Update_Teacher.xaml;;
-FD:\Workplace\FPT Education\SU24\PRN212\Wpf_Student_Management\Wpf_Student_Management\Pages\Classes\Add_Class.xaml;;
-FD:\Workplace\FPT Education\SU24\PRN212\Wpf_Student_Management\Wpf_Student_Management\Pages\Classes\Update_Class.xaml;;
-FD:\Workplace\FPT Education\SU24\PRN212\Wpf_Student_Management\Wpf_Student_Management\Pages\Students\Add_StudentClass.xaml;;
 

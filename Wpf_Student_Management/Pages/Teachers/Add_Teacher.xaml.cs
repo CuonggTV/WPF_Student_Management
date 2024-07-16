@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices.JavaScript;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -62,6 +63,11 @@ namespace Wpf_Student_Management.Pages.Teachers
             if (string.IsNullOrEmpty(firstName) || string.IsNullOrEmpty(lastName) || !dateOfBirth.HasValue)
             {
                 MessageBox.Show("Please fill in all fields.");
+                return;
+            }
+            else if (firstName.Length > 128 || lastName.Length > 128)
+            {
+                MessageBox.Show("First and last name must be less than 128 letters.");
                 return;
             }
             else if (dateOfBirth.Value < eighteenYearsAgo)

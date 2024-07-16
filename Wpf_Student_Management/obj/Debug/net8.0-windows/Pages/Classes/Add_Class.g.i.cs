@@ -69,7 +69,7 @@ namespace Wpf_Student_Management.Pages.Classes {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Wpf_Student_Management;V1.0.0.0;component/pages/classes/add_class.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Wpf_Student_Management;component/pages/classes/add_class.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Pages\Classes\Add_Class.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

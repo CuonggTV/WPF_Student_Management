@@ -77,7 +77,7 @@ namespace Wpf_Student_Management.Pages.Students {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Wpf_Student_Management;V1.0.0.0;component/pages/students/update_student.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Wpf_Student_Management;component/pages/students/update_student.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Pages\Students\Update_Student.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

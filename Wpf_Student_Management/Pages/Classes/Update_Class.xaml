@@ -11,9 +11,6 @@ WindowStartupLocation="CenterScreen" Topmost="True">
     <Grid>
         <TextBlock Text="Update Class" FontSize="30"  VerticalAlignment="Top" HorizontalAlignment="Left" Margin="38,24,0,0"/>
 
-        <Label Content="Class Id" FontSize="16" HorizontalAlignment="Left" Margin="65,95,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="txtClassId" HorizontalAlignment="Left" Margin="181,96,0,0" VerticalAlignment="Top" Width="152" Height="30"/>
-
         <Label Content="Class Name" FontSize="16" HorizontalAlignment="Left" Margin="67,151,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtClassName" HorizontalAlignment="Left" Margin="181,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152" Height="30"/>
 

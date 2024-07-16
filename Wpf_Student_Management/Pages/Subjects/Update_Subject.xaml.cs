@@ -29,19 +29,22 @@ namespace Wpf_Student_Management.Pages.Subjects
             if (subject != null)
             {
                 _subject = subject;
-                txtSubjectId.Text = subject.SubjectId;
                 txtSubjectTitle.Text = subject.Title;
             }
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string subjectId = txtSubjectId.Text;
             string subjectTitle = txtSubjectTitle.Text;
 
-            if (string.IsNullOrEmpty(subjectId) || string.IsNullOrEmpty(subjectTitle))
+            if (string.IsNullOrEmpty(subjectTitle))
             {
                 MessageBox.Show("Please fill in all fields.");
+                return;
+            }
+            else if (subjectTitle.Length > 128)
+            {
+                MessageBox.Show("Title must be less than 128 letters.");
                 return;
             }
             else
@@ -50,7 +53,7 @@ namespace Wpf_Student_Management.Pages.Subjects
                 {
                     Subject newSubject = new()
                     {
-                        SubjectId = subjectId,
+                        SubjectId = _subject.SubjectId,
                         Title = subjectTitle
                     };
 

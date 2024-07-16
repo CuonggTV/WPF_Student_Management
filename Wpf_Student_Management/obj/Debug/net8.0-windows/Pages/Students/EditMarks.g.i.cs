@@ -69,7 +69,7 @@ namespace Wpf_Student_Management.Pages.Students {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Wpf_Student_Management;V1.0.0.0;component/pages/students/editmarks.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Wpf_Student_Management;component/pages/students/editmarks.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Pages\Students\EditMarks.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

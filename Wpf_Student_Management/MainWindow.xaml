@@ -41,7 +41,7 @@
 
                 <Grid Height="50" VerticalAlignment="Top" Margin="0,30,0,0">
                     <Border Background="#D61734" Height="25" CornerRadius="3,0,0,3" Width="6" VerticalAlignment="Center" HorizontalAlignment="Right"/>
-                    <TextBlock Text="T I T L E" Foreground="#FFFFFF" FontFamily="Fonts/#Orbitron Medium" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <TextBlock Text="S C H O O L   S Y S T E M" Foreground="#FFFFFF" FontFamily="Fonts/#Orbitron Medium" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                 </Grid>
 
                 <Menu Height="450" Background="Transparent" Margin="0,40,0,0">
@@ -51,25 +51,25 @@
                         </ItemsPanelTemplate>
                     </Menu.ItemsPanel>
 
-                    <MenuItem Header="Student" Command="{Binding CMDChangePage}" CommandParameter="{x:Static local:PageId.Student}">
+                    <MenuItem Header="Student" FontSize="20" Foreground="White"  Command="{Binding CMDChangePage}" CommandParameter="{x:Static local:PageId.Student}">
                         <MenuItem.Icon>
                             <Image Source="Assets/student.png" Stretch="None"/>
                         </MenuItem.Icon>
                     </MenuItem>
 
-                    <MenuItem Header="Teacher" Command="{Binding CMDChangePage}" CommandParameter="{x:Static local:PageId.Teacher}">
+                    <MenuItem Header="Teacher" FontSize="20" Foreground="White" Command="{Binding CMDChangePage}" CommandParameter="{x:Static local:PageId.Teacher}">
                         <MenuItem.Icon>
                             <Image Source="Assets/teacher.png" Stretch="None"/>
                         </MenuItem.Icon>
                     </MenuItem>
 
-                    <MenuItem Header="Subject" Command="{Binding CMDChangePage}" CommandParameter="{x:Static local:PageId.Subject}">
+                    <MenuItem Header="Subject" FontSize="20" Foreground="White" Command="{Binding CMDChangePage}" CommandParameter="{x:Static local:PageId.Subject}">
                         <MenuItem.Icon>
                             <Image Source="Assets/subject.png" Stretch="None"/>
                         </MenuItem.Icon>
                     </MenuItem>
 
-                    <MenuItem Header="Class" Command="{Binding CMDChangePage}" CommandParameter="{x:Static local:PageId.Class}">
+                    <MenuItem Header="Class" FontSize="20" Foreground="White" Command="{Binding CMDChangePage}" CommandParameter="{x:Static local:PageId.Class}">
                         <MenuItem.Icon>
                             <Image Source="Assets/class.png" Stretch="None"/>
                         </MenuItem.Icon>

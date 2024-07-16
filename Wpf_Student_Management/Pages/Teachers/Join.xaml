@@ -14,7 +14,7 @@
     <Grid>
         <DataGrid Name="joinGrid" AutoGenerateColumns="False" Margin="0,161,0,0" Grid.ColumnSpan="2" IsReadOnly="True">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Student Id" Binding="{Binding TeacherId}"/>
+                <DataGridTextColumn Header="Teacher Id" Binding="{Binding TeacherId}"/>
                 <DataGridTextColumn Header="Subject Id" Binding="{Binding SubjectId}"/>
                 <DataGridTextColumn Header="Subject Title" Binding="{Binding SubjectTitle}"/>
                 <DataGridTextColumn Header="Class Id" Binding="{Binding ClassId}"/>

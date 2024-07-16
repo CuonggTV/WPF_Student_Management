@@ -41,14 +41,15 @@ CREATE TABLE [Classes] (
 );
 
 CREATE TABLE [StudentClass] (
-  [StudentId] Varchar(8),
-  [ClassId] Varchar(6),
+  [StudentId] Varchar(8) NOT NULL,
+  [ClassId] Varchar(6) NOT NULL,
   CONSTRAINT [FK_StudentClass.ClassId]
     FOREIGN KEY ([ClassId])
       REFERENCES [Classes]([ClassId]),
   CONSTRAINT [FK_StudentClass.StudentId]
     FOREIGN KEY ([StudentId])
-      REFERENCES [Students]([StudentId])
+      REFERENCES [Students]([StudentId]),
+  PRIMARY KEY ([StudentId], [ClassId])
 );
 
 CREATE TABLE [SubjectTeacher] (
@@ -63,6 +64,7 @@ CREATE TABLE [SubjectTeacher] (
       REFERENCES [Subjects]([SubjectId]),
   CONSTRAINT [FK_SubjectTeacher.TeacherId]
     FOREIGN KEY ([TeacherId])
-      REFERENCES [Teachers]([TeacherId])
+      REFERENCES [Teachers]([TeacherId]),
+  PRIMARY KEY ([SubjectId], [TeacherId],[ClassId])
 );
 

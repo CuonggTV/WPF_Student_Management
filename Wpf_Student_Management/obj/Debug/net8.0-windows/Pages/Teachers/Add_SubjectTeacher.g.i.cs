@@ -69,8 +69,7 @@ namespace Wpf_Student_Management.Pages.Teachers {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Wpf_Student_Management;V1.0.0.0;component/pages/teachers/add_subjectteacher.xaml" +
-                    "", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Wpf_Student_Management;component/pages/teachers/add_subjectteacher.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Pages\Teachers\Add_SubjectTeacher.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -35,21 +35,38 @@ namespace Wpf_Student_Management.Pages.Subjects
                 MessageBox.Show("Please fill in all fields.");
                 return;
             }
+            else if (subjectId.Length > 7 )
+            {
+                MessageBox.Show("Subject must be less than 7 letters.");
+                return;
+            }
+            else if (subjectTitle.Length > 128)
+            {
+                MessageBox.Show("Title must be less than 128 letters.");
+                return;
+            }
             else
             {
-                using (var context = new PRN212_Student_ManagementContext())
+                try
                 {
-                    Subject newSubject = new()
+                    using (var context = new PRN212_Student_ManagementContext())
                     {
-                        SubjectId = subjectId,
-                        Title = subjectTitle
-                    };
+                        Subject newSubject = new()
+                        {
+                            SubjectId = subjectId,
+                            Title = subjectTitle
+                        };
 
-                    context.Subjects.Add(newSubject);
-                    context.SaveChanges();
+                        context.Subjects.Add(newSubject);
+                        context.SaveChanges();
+                    }
+
+                    MessageBox.Show("Subject added successfully!");
                 }
-
-                MessageBox.Show("Subject added successfully!");
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Cannot added Subject!");
+                }
             }
             this.Close();
         }

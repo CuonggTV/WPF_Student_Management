@@ -54,6 +54,11 @@ namespace Wpf_Student_Management.Pages.Teachers
                 MessageBox.Show("Teacher must be 18 years old or older.");
                 return;
             }
+            else if (firstName.Length > 128 || lastName.Length > 128)
+            {
+                MessageBox.Show("First and last name must be less than 128 letters.");
+                return;
+            }
             else
             {
                 using (var context = new PRN212_Student_ManagementContext())

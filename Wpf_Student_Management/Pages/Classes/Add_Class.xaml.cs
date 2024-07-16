@@ -35,6 +35,16 @@ namespace Wpf_Student_Management.Pages.Classes
                 MessageBox.Show("Please fill in all fields.");
                 return;
             }
+            else if (classId.Length > 6 )
+            {
+                MessageBox.Show("Class Id must be less than 6 letters.");
+                return;
+            }
+            else if (name.Length > 128)
+            {
+                MessageBox.Show("Class name must be less than 128 letters.");
+                return;
+            }
             else
             {
                 try
