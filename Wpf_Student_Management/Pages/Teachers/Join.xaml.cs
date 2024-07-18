@@ -60,34 +60,40 @@ namespace Wpf_Student_Management.Pages.Teachers
 
         private void DeleteButton_Click(object sender, EventArgs e)
         {
-            var button = sender as Button;
+            Button button = sender as Button;
             if (button != null)
             {
-                var tuple = button.Tag as Tuple<string, string>;
+                var tuple = button.Tag as Tuple<object, object>;
                 if (tuple != null)
                 {
-                    string classId = tuple.Item1;
-                    string subjectId = tuple.Item2;
-
-                    using (var context = new PRN212_Student_ManagementContext())
+                    var classId = tuple.Item1.ToString();
+                    var subjectId = tuple.Item2.ToString();
+                    try
                     {
-                        var subjectTeacher = context.SubjectTeachers
-                            .FirstOrDefault(st => st.ClassId == classId && st.SubjectId == subjectId && st.TeacherId == _teacher.TeacherId);
-                        if (subjectTeacher != null)
+                        using (var context = new PRN212_Student_ManagementContext())
                         {
-                            context.SubjectTeachers.Remove(subjectTeacher);
-                            context.SaveChanges();
+                            var subjectTeacher = context.SubjectTeachers
+                                .FirstOrDefault(st => st.ClassId == classId && st.SubjectId == subjectId && st.TeacherId == _teacher.TeacherId);
+                            if (subjectTeacher != null)
+                            {
+                                context.SubjectTeachers.Remove(subjectTeacher);
+                                context.SaveChanges();
+                            }
+                            else
+                            {
+                                MessageBox.Show("SubjectTeacher not found.");
+                            }
                         }
-                        else
-                        {
-                            MessageBox.Show("SubjectTeacher not found.");
-                        }
+                    }
+                    catch (Exception ex) {
+                        MessageBox.Show("Cannot remove this record.");
                     }
                 }
                 else
                 {
                     MessageBox.Show("Invalid data.");
                 }
+                this.Close();
             }
         }
 

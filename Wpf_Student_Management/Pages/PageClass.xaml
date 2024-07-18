@@ -16,7 +16,11 @@
         <Button Content="ADD" Margin="198,47,72,0" VerticalAlignment="Top" Height="72" Click="Add_Btn_Click" Grid.Column="1"/>
         <Label Content="CLASSES" FontSize="35" HorizontalAlignment="Left" Margin="44,55,0,0" VerticalAlignment="Top"/>
 
-        <DataGrid Name="subjectsGrid" AutoGenerateColumns="False" Margin="0,161,0,0" Grid.ColumnSpan="2" IsReadOnly="True">
+        <Label Content="Search by class name:" FontSize="13" HorizontalAlignment="Left" Margin="14,122,0,0" VerticalAlignment="Top" Height="31" />
+        <TextBox Name="txtSearchValue" HorizontalAlignment="Left" Margin="158,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="283,126,0,0" VerticalAlignment="Top" Click="btnSearch_Click"/>
+
+        <DataGrid Name="classGrid" AutoGenerateColumns="False" Margin="0,161,0,0" Grid.ColumnSpan="2" IsReadOnly="True">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Class Id" Binding="{Binding ClassId}"/>
                 <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
@@ -29,6 +33,7 @@
                             <StackPanel Orientation="Horizontal">
                                 <Button Content="Update" Margin="2" Click="UpdateButton_Click" Tag="{Binding ClassId}"/>
                                 <Button Content="Delete" Margin="2" Click="DeleteButton_Click" Tag="{Binding ClassId}"/>
+                                <Button Content="Assign Student" Margin="2" Click="AssignStudentButton_Click" Tag="{Binding ClassId}"/>
                             </StackPanel>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>

@@ -100,16 +100,23 @@ namespace Wpf_Student_Management.Page
             // Confirm delete
             if (MessageBox.Show("Are you sure you want to delete this subject?", "Confirm Delete", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
-                using (var context = new PRN212_Student_ManagementContext())
+                try
                 {
-                    var subject = context.Subjects.FirstOrDefault(s => s.SubjectId == subjectId);
-                    if (subject != null)
+                    using (var context = new PRN212_Student_ManagementContext())
                     {
-                        context.Subjects.Remove(subject);
-                        context.SaveChanges();
-                        LoadData(); // Reload data after deletion
+                        var subject = context.Subjects.FirstOrDefault(s => s.SubjectId == subjectId);
+                        if (subject != null)
+                        {
+                            context.Subjects.Remove(subject);
+                            context.SaveChanges();
+                            LoadData(); // Reload data after deletion
+                        }
                     }
                 }
+                catch (Exception ex) {
+                    MessageBox.Show("Cannot remove subject.");
+                }
+               
             }
         }
 

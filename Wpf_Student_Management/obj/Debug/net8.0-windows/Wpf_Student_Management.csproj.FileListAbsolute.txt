@@ -102,3 +102,5 @@ D:\Workplace\FPT Education\SU24\PRN212\Wpf_Student_Management\Wpf_Student_Manage
 D:\Workplace\FPT Education\SU24\PRN212\Wpf_Student_Management\Wpf_Student_Management\obj\Debug\net8.0-windows\Pages\Students\Add_StudentClass.g.cs
 D:\Workplace\FPT Education\SU24\PRN212\Wpf_Student_Management\Wpf_Student_Management\obj\Debug\net8.0-windows\Pages\Students\Add_StudentClass.baml
 D:\Workplace\FPT Education\SU24\PRN212\Wpf_Student_Management\Wpf_Student_Management\obj\Debug\net8.0-windows\Wpf_Student_Management.sourcelink.json
+D:\Workplace\FPT Education\SU24\PRN212\Wpf_Student_Management\Wpf_Student_Management\obj\Debug\net8.0-windows\Pages\Classes\Assign_Student.g.cs
+D:\Workplace\FPT Education\SU24\PRN212\Wpf_Student_Management\Wpf_Student_Management\obj\Debug\net8.0-windows\Pages\Classes\Assign_Student.baml

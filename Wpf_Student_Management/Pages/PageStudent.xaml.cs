@@ -34,6 +34,7 @@ namespace Wpf_Student_Management.Page
             using (var context = new PRN212_Student_ManagementContext())
             {
                 studentsGrid.ItemsSource = context.Students.ToList();
+                classComboBox.ItemsSource = context.Classes.ToList();
             }
         }
 
@@ -78,15 +79,21 @@ namespace Wpf_Student_Management.Page
             // Confirm delete
             if (MessageBox.Show("Are you sure you want to delete this student?", "Confirm Delete", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
-                using (var context = new PRN212_Student_ManagementContext())
+                try
                 {
-                    var student = context.Students.FirstOrDefault(s => s.StudentId == studentId);
-                    if (student != null)
+                    using (var context = new PRN212_Student_ManagementContext())
                     {
-                        context.Students.Remove(student);
-                        context.SaveChanges();
-                        LoadData(); // Reload data after deletion
+                        var student = context.Students.FirstOrDefault(s => s.StudentId == studentId);
+                        if (student != null)
+                        {
+                            context.Students.Remove(student);
+                            context.SaveChanges();
+                            LoadData(); // Reload data after deletion
+                        }
                     }
+                }
+                catch (Exception ex) {
+                    MessageBox.Show("Cannot remove student");
                 }
             }
         }
@@ -139,6 +146,22 @@ namespace Wpf_Student_Management.Page
                     window.Closed += Form_Students_Closed; // Reload data when update window is closed
                     window.Show();
                 }
+            }
+        }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (classComboBox.SelectedValue != null)
+            {
+                // Get the selected SubjectId
+                var classId = classComboBox.SelectedValue.ToString();
+
+                using (var context = new PRN212_Student_ManagementContext())
+                {
+                    // Find the subject based on the selected SubjectId
+                    studentsGrid.ItemsSource = context.StudentClasses.Where(sc => sc.ClassId == classId)
+                        .Select(sc => sc.Student).ToList();
+                }   
             }
         }
     }

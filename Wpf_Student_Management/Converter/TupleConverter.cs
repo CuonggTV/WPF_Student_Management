@@ -1,36 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System;
-using System.Globalization;
+﻿using System.Globalization;
 using System.Windows.Data;
 
 namespace Wpf_Student_Management.Converter
 {
-
-
-public class TupleConverter : IMultiValueConverter
-{
-    public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture)
+    public class TupleConverter : IMultiValueConverter
     {
-        if (values.Length == 2)
+        public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture)
         {
-            return new Tuple<string, string>(values[0]?.ToString(), values[1]?.ToString());
+            if (values.Length == 2)
+            {
+                return Tuple.Create(values[0], values[1]);
+            }
+            return null;
         }
-        return null;
-    }
 
-    public object[] ConvertBack(object value, Type[] targetTypes, object parameter, CultureInfo culture)
-    {
-        var tuple = value as Tuple<string, string>;
-        if (tuple != null)
+        public object[] ConvertBack(object value, Type[] targetTypes, object parameter, CultureInfo culture)
         {
-            return new object[] { tuple.Item1, tuple.Item2 };
+            throw new NotImplementedException();
         }
-        return new object[2];
     }
 }
 
-}

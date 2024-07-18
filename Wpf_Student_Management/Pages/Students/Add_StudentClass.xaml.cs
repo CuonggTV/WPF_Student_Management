@@ -31,7 +31,8 @@ namespace Wpf_Student_Management.Pages.Students
         {
             using (var context = new PRN212_Student_ManagementContext())
             {
-                var classes = context.Classes.ToList();
+                var classes = context.Classes.Where(
+                    c => !context.StudentClasses.Any(sc => sc.ClassId == c.ClassId)).ToList();
                 classComboBox.ItemsSource = classes;
             }
         }
@@ -55,12 +56,18 @@ namespace Wpf_Student_Management.Pages.Students
             };
 
             // Save newMark to database using Entity Framework
-            using (var context = new PRN212_Student_ManagementContext())
+            try
             {
-                context.StudentClasses.Add(newStudentClass);
-                context.SaveChanges();
+                using (var context = new PRN212_Student_ManagementContext())
+                {
+                    context.StudentClasses.Add(newStudentClass);
+                    context.SaveChanges();
+                }
+                MessageBox.Show("Assign successfully.");
             }
-            MessageBox.Show("Assign successfully.");
+            catch (Exception ex) {
+                MessageBox.Show("Cannot assign student");
+            }
             this.Close();
         }
     }

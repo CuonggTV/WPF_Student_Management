@@ -11,17 +11,17 @@
             <ColumnDefinition Width="101*"/>
             <ColumnDefinition Width="99*"/>
         </Grid.ColumnDefinitions>
-        
-        <Label Content="Search by last name:" FontSize="13" HorizontalAlignment="Left" Margin="6,125,0,0" VerticalAlignment="Top" Height="31" />
-        <TextBox Name="txtSearchValue" HorizontalAlignment="Left" Margin="138,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="269,129,0,0" VerticalAlignment="Top" Click="btnSearch_Click"/>
-        
+
+        <Label Content="Search by last name:" FontSize="13" HorizontalAlignment="Left" Margin="10,87,0,0" VerticalAlignment="Top" Height="31" />
+        <TextBox Name="txtSearchValue" HorizontalAlignment="Center" Margin="0,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="283,96,0,0" VerticalAlignment="Top" Click="btnSearch_Click"/>
+
         <DataGrid Name="studentsGrid" AutoGenerateColumns="False" Margin="0,161,0,0" Grid.ColumnSpan="2" IsReadOnly="True">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ID" Binding="{Binding StudentId}"/>
                 <DataGridTextColumn Header="First Name" Binding="{Binding FirstName}"/>
                 <DataGridTextColumn Header="Last Name" Binding="{Binding LastName}"/>
-                <DataGridTextColumn Header="Date of Birth" Binding="{Binding Dob}"/>
+                <DataGridTextColumn Header="Date of Birth" Binding="{Binding Dob, StringFormat=\{0:dd/MM/yyyy\}}"/>
                 <DataGridTemplateColumn Header="Actions">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
@@ -39,6 +39,12 @@
 
 
         <Button Content="ADD" Margin="198,47,72,0" VerticalAlignment="Top" Height="72" Click="Add_Btn_Click" Grid.Column="1"/>
-        <Label Content="STUDENTS" FontSize="35" HorizontalAlignment="Left" Margin="44,55,0,0" VerticalAlignment="Top"/>
+        <Label Content="STUDENTS" FontSize="35" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name="classComboBox" HorizontalAlignment="Center" Margin="0,134,0,0" VerticalAlignment="Top" Width="120" 
+                  SelectionChanged="ComboBox_SelectionChanged"
+                  DisplayMemberPath="ClassId"
+                  SelectedValuePath="ClassId"
+                  SelectedValue="{Binding ClassId, Mode=TwoWay}"/>
+        <Label Content="Search by class Id:" FontSize="13" HorizontalAlignment="Left" Margin="10,131,0,0" VerticalAlignment="Top" Height="31" />
     </Grid>
 </UserControl>

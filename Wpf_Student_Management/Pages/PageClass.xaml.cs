@@ -45,7 +45,7 @@ namespace Wpf_Student_Management.Page
                                    .Count(),
                 }).ToList();
 
-                subjectsGrid.ItemsSource = data;
+                classGrid.ItemsSource = data;
             }
         }
 
@@ -90,18 +90,48 @@ namespace Wpf_Student_Management.Page
             // Confirm delete
             if (MessageBox.Show("Are you sure you want to delete this class?", "Confirm Delete", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
-                using (var context = new PRN212_Student_ManagementContext())
+                try
                 {
-                    var c = context.Classes.FirstOrDefault(s => s.ClassId == classId);
-                    if (c != null)
+                    using (var context = new PRN212_Student_ManagementContext())
                     {
-                        context.Classes.Remove(c);
-                        context.SaveChanges();
-                        LoadData(); // Reload data after deletion
+                        var c = context.Classes.FirstOrDefault(s => s.ClassId == classId);
+                        if (c != null)
+                        {
+                            context.Classes.Remove(c);
+                            context.SaveChanges();
+                            LoadData(); // Reload data after deletion
+                        }
                     }
+                }
+                catch (Exception ex) {
+                    MessageBox.Show("Cannot remove class.");
                 }
             }
         }
 
+        private void AssignStudentButton_Click(object sender, RoutedEventArgs e)
+        {
+            // Retrieve the StudentId from the button's Tag property
+            var button = sender as Button;
+            var classId = button.Tag as string;
+
+            // Confirm delete
+            if (classId != null)
+            {
+                Assign_Student window = new Assign_Student(classId);
+                window.Closed += Form_Subjects_Closed;  
+                window.Show();
+            }
+        }
+        private void btnSearch_Click(object sender, RoutedEventArgs e)
+        {
+            var searchClassName = txtSearchValue.Text;
+            using (var context = new PRN212_Student_ManagementContext())
+            {
+                classGrid.ItemsSource = context.Classes
+                    .Where(s => s.Name.Contains(searchClassName))
+                    .ToList();
+            }
+        }
     }
 }

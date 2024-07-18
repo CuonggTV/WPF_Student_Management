@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Wpf_Student_Management.Pages.Teachers" 
         xmlns:local1="clr-namespace:Wpf_Student_Management.Converter"
         mc:Ignorable="d"
-               Title="EditMarks" Height="450" Width="600"
+               Title="Class and Subject" Height="450" Width="600"
         WindowStartupLocation="CenterScreen" Topmost="True">
     <Window.Resources>
         <local1:TupleConverter x:Key="TupleConverter" />
